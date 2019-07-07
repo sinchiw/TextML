@@ -15,6 +15,7 @@
 		CECB96B422D2A2B600FDDAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECB96B222D2A2B600FDDAEB /* LaunchScreen.storyboard */; };
 		CECB96BF22D2A2B600FDDAEB /* BusinessOrSportMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB96BE22D2A2B600FDDAEB /* BusinessOrSportMLTests.swift */; };
 		CECB96CA22D2A2B600FDDAEB /* BusinessOrSportMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB96C922D2A2B600FDDAEB /* BusinessOrSportMLUITests.swift */; };
+		CECB96DA22D2A68600FDDAEB /* headlines.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CECB96D922D2A68600FDDAEB /* headlines.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CECB96C522D2A2B600FDDAEB /* BusinessOrSportMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessOrSportMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECB96C922D2A2B600FDDAEB /* BusinessOrSportMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessOrSportMLUITests.swift; sourceTree = "<group>"; };
 		CECB96CB22D2A2B600FDDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECB96D922D2A68600FDDAEB /* headlines.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = headlines.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				CECB96A622D2A2B400FDDAEB /* AppDelegate.swift */,
 				CECB96A822D2A2B400FDDAEB /* ViewController.swift */,
+				CECB96D922D2A68600FDDAEB /* headlines.mlmodel */,
 				CECB96AA22D2A2B400FDDAEB /* Main.storyboard */,
 				CECB96B022D2A2B600FDDAEB /* Assets.xcassets */,
 				CECB96B222D2A2B600FDDAEB /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				CECB96A922D2A2B400FDDAEB /* ViewController.swift in Sources */,
 				CECB96A722D2A2B400FDDAEB /* AppDelegate.swift in Sources */,
+				CECB96DA22D2A68600FDDAEB /* headlines.mlmodel in Sources */,
 				CECB96AF22D2A2B400FDDAEB /* BusinessOrSportML.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6CQ853DP7;
 				INFOPLIST_FILE = BusinessOrSportML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6CQ853DP7;
 				INFOPLIST_FILE = BusinessOrSportML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
